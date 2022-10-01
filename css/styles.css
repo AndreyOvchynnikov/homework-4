@@ -292,21 +292,20 @@ margin-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
 }
-.social-link-item{
+.social-link-link{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.social-link-link{
-    display: flex;
-}
-.social-link-item{
     width: 44px;
     height: 44px;
     border-radius: 50%;
 }
 .social-link-icon{
 fill: rgb(175, 177, 184);
+}
+.social-link-link .social-link-item{
+    fill: var(--third-color);
+    background-color: var(--accent-color);
 }
 /* ========= END TEAM ========== */
 
