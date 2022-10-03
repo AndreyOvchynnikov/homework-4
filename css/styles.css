@@ -108,6 +108,7 @@ color: var(--primary-color);
     margin-right: 30px;
 }
 .header-contacts-icon{
+    margin-right: 10px;
     fill: var(--secondary-color);
 }
 .link-icon{
@@ -124,10 +125,6 @@ display: flex;
 .header-contacts-link:hover,
 .header-contacts-link:focus {
     color: var(--accent-color);
-}
-.header-contacts-item{
-    display: flex;
-    align-items: center;
 }
 /* ======== END HEADER ======= */
 
